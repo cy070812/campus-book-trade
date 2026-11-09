@@ -1,0 +1,6 @@
+# 统一换行，但 CSV 保持原样，避免破坏 C 程序按行解析
+* text=auto
+*.csv -text
+*.docx binary
+*.pptx binary
+*.png binary
